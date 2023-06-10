@@ -1,3 +1,14 @@
+/*
+Make the entire row and column 0, if found any element 0
+[[1,1,1],
+ [1,0,1],
+ [1,1,1]]
+Output: 
+[[1,0,1],
+ [0,0,0],
+ [1,0,1]]
+*/
+
 //Brute force - traverse all the index, mark it, and then make the entire row and col as 0. TC = O(N * M) + O(N + M) + O(N * M)- VERY HIGH
 //Better sol - TC = O(2 * N * M); SC = O(N) + O(M)
 class Solution {
