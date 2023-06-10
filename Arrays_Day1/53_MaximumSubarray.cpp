@@ -16,7 +16,7 @@ for(i=0 -> n){
     mx = max(sum, mx)
   }
 }
-TC: ~O(N^3);  SC: const
+TC: ~ O(N^3);  SC: const
 */
 
 //Better Solution
