@@ -14,7 +14,7 @@ int nCr(int n, int r){     //r=5, c=3   -> ans = 6     ncr(r-1, c-1)
 //Type 2 : Print nth row of the Pascal triangle
 //n=5 -> 1 4 6 4 1
 //Brute force could be using the above combination based formula to find element at each place, 
-//and thus calling the function again and again. TC: O(N*R)
+//and thus calling the function again and again.  TC: O(N*R)
 
 //Better sol: rather calling nCr function, create a loop in the main function, 
 //doing the same task and also printing before the loop ends
