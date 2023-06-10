@@ -1,3 +1,12 @@
+/*
+numRows = 5
+Output: [[1],
+        [1,1],
+       [1,2,1],
+      [1,3,3,1],
+     [1,4,6,4,1]]
+*/
+
 //Type 1 : When row and col given, have to find element at that particular index. TC = O(R)
 //Brute force : using the combination formula completely
 //Mathematically analizing combination formula and shortening it for optimized solution
