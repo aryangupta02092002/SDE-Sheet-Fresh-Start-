@@ -36,7 +36,7 @@ public:
 /*
 Hashing
 Using set data structure
-Store the nodes in set, and then run another loop for other list and check for the presence of the node
+Store the nodes in the set, and then run another loop for other list and check for the presence of the node
 TC: O(N+M)
 SC: O(N)
 */
