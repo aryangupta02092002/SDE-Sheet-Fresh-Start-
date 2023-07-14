@@ -51,8 +51,6 @@ Three cases can occur:-
 TC: O(row*log col) since the upper bound function takes log c time.
 SC: O(1)
 */
-![Screenshot](https://lh6.googleusercontent.com/4TXWnuiVcUQEaQUiomnn_gwquL9qfAT4O38Qls6Sdz_ZNnnxt5txhGiiJLsYAL5OR9zAvchqsVwQmkGlLfro3CVDqieinu3VgyFba1tbmzxt9cFUpeky5ufzZ-clfJmGlbkRGkic?raw=true)
-![Screenshot](https://lh5.googleusercontent.com/3Aozu7SCX0Tq2Jf0W8TEGeeQSSX6KeRzGK2AblElAuhYPELxbZmtRQ0EK3H3hIVH_XfXR1Fd4EekyiitASB1g1D5qucGDdaWBDJW2BTmAELKBMqbwtW4i9zCszBynrKE7kpldAtk?raw=true)
 int countSmallerThanMid(vector<int> &row, int mid){
     int low = 0, high = row.size()-1;
     while(low <= high){
